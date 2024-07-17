@@ -1,9 +1,9 @@
 import tw from "@nautic-eye/ui/tailwind.config";
-import { type Config } from "tailwindcss";
+import type { Config } from "tailwindcss";
 
 const config = {
-  presets: [tw],
-  content: ["./app/**/*.{ts,tsx}", "../../packages/ui/src/**/*.{ts,tsx}"],
+	presets: [tw],
+	content: ["./app/**/*.{ts,tsx}", "../../packages/ui/src/**/*.{ts,tsx}"],
 } satisfies Config;
 
 export default config;

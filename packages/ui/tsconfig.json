@@ -1,0 +1,11 @@
+{
+	"extends": "@nautic-eye/ts/react-library.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@nautic-eye/ui/*": ["./src/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}

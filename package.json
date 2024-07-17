@@ -1,0 +1,21 @@
+{
+  "name": "nautic-eye",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm --filter @natuic-eye/app build",
+    "dev": "pnpm --filter @nautic-eye/app dev",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format",
+    "ui:add": "pnpm --filter @nautic-eye/ui ui:add"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@nautic-eye/ts": "workspace:*"
+  },
+  "packageManager": "pnpm@9.5.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
